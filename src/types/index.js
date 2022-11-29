@@ -1,0 +1,1 @@
+export { videosType } from './betType';

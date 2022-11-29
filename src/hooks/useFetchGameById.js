@@ -10,6 +10,7 @@ export const useFetchGameById = (id) => {
 
   const fetchGame = async () => {
     try {
+      // this appears no both hooks, can be refactored away
       if (!DATA_SOURCE_NETWORK_URL) {
         return setError(new Error('Network data source URL is missing.'));
       }
