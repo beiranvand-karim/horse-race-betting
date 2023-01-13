@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { format, parseISO } from 'date-fns';
+import { enUS } from 'date-fns/locale';
 
 export const ControlSpacingBetweenGroupedPanels = styled.div`
   background-color: #eee;
@@ -14,3 +16,8 @@ export const ControlSpacingBetweenGroupedPanels = styled.div`
     padding-bottom: 8px;
   }
 `;
+
+export const formattedStartTime = (startTime) =>
+  format(parseISO(startTime), 'HH:mm (d MMM)', {
+    locale: enUS
+  });
