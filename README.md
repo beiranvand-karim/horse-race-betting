@@ -1,6 +1,6 @@
-# Online Commerce Project
+# Project Purpose
 
-This is an assessment project for an online commerce company.
+This is an assessment project for a horse race betting. 
 
 ## Available Scripts
 
@@ -21,3 +21,15 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+## Run in development mode
+
+follow the bullet point detailed below to run project in development mode.
+
+- Install lastest release of `Node.js`.
+- Clone project using `git` version control.
+- Install packages using command in terminal `yarn install`.
+- Create a `.env` file in the root directory of the project. Copy the environment variables from the `.env.example`.
+  Make necessary change to the environment variables based on the environment.
+- Then run command in terminal `yarn start`.
+- Run browser with disable `CORS`. for example: `open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security`
