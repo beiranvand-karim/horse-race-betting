@@ -5,7 +5,7 @@ import React, { lazy, Suspense } from 'react';
 const NotFoundLazyPage = lazy(() => import('./pages/NotFoundPage'));
 
 const NotFoundPage = () => (
-  <Suspense>
+  <Suspense fallback={<>Loading ...</>}>
     <NotFoundLazyPage />
   </Suspense>
 );

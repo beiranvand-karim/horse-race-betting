@@ -6,7 +6,6 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   html, body, * {
-    font-family: Mulish, "Helvetica Neue", Helvetica, Roboto, sans-serif;
     box-sizing: border-box;
   }
 `;
